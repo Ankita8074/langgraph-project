@@ -1,10 +1,15 @@
-# LangGraph Project
+# E-commerce Customer Support Bot
+
+## What it does
+- Classifies customer messages into: order, refund, shipping, general
+- Responds intelligently using OpenAI GPT-3.5
+- Built using LangGraph for workflow management
 
 ## Output
-Agent running...
-Tool running...
-Done! {'messages': ['Hello'], 'next': 'end'}
+Customer: Where is my order #12345?
+Category: order
+Bot: Thank you for reaching out! I can help you track your order...
 
 ## How to run
-pip install langgraph langchain-core
+pip install langgraph langchain-openai
 python 123.py
